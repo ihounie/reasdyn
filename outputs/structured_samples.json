@@ -1,0 +1,67 @@
+{
+  "asset_turnover_investment_depreciation": {
+    "question": "Company A, a leader in the automotive industry, generated total sales of $1983101.0 and had total assets of $1338762.08. This year, the company plans to invest $155815.17 in new machinery, while also experiencing asset depreciation of $65374.28. How will the company's Asset Turnover Ratio change after accounting for the new investment and depreciation?",
+    "original_answer": "Step 1: Calculate the current Asset Turnover Ratio:\n Previous year's Asset Turnover Ratio = $1983101.0 / $1338762.08 = 1.48\n\nStep 2: Adjust total assets for new investment and depreciation:\n  Adjusted Assets = $1338762.08 + $155815.17 - $65374.28 = $1429202.97\n\nStep 3: Calculate Asset Turnover Ratio after adjustments:\n This Year's Asset Turnover Ratio = $1983101.0 / $1429202.97 = 1.39\n\nStep 4: Calculate the change in Asset Turnover Ratio:\n  Change in Asset Turnover Ratio = 1.39 - 1.48 = -0.09",
+    "final_result": -0.09,
+    "steps": [
+      [
+        "Previous year's Asset Turnover Ratio",
+        1.48
+      ],
+      [
+        "Adjusted Assets",
+        1429202.97
+      ],
+      [
+        "This Year's Asset Turnover Ratio",
+        1.39
+      ],
+      [
+        "Change in Asset Turnover Ratio",
+        -0.09
+      ]
+    ]
+  },
+  "debt_repayment": {
+    "question": "Company E, operating in the automotive sector, has $672394.01 in total liabilities and $112713.07 in shareholders' equity. It repays $64054.29 of its long-term debt and borrows an additional $108165.22 in short-term loans. How will these changes affect the company's Debt-to-Equity ratio?",
+    "original_answer": "Step 1: Calculate the current Debt-to-Equity ratio:\n Current Debt-to-Equity Ratio = $672394.01 / $112713.07 = 5.97\n\nStep 2: Calculate new liabilities after debt repayment and new borrowing:\n  New Liabilities = $672394.01 - $64054.29 + $108165.22 = $716504.94\n\nStep 3: Calculate the new Debt-to-Equity ratio:\n  New Debt-to-Equity Ratio = $716504.94 / $112713.07 = 6.36\n\nStep 4: Calculate the change in Debt-to-Equity ratio:\n  Change in Debt-to-Equity Ratio = 6.36 - 5.97 = 0.39",
+    "final_result": 0.39,
+    "steps": [
+      [
+        "Current Debt-to-Equity Ratio",
+        5.97
+      ],
+      [
+        "New Liabilities",
+        716504.94
+      ],
+      [
+        "New Debt-to-Equity Ratio",
+        6.36
+      ],
+      [
+        "Change in Debt-to-Equity Ratio",
+        0.39
+      ]
+    ]
+  },
+  "quick_ratio_scenario": {
+    "question": "Company E, in the automotive industry, has $344254 in current assets, $36062 in inventories, $23295 in prepaid expenses, and $208848 in current liabilities. To meet liquidity requirements, the company must maintain a minimum quick ratio of 2.04. How much additional cash or marketable securities are needed to meet this requirement?",
+    "original_answer": "Step 1: Calculate the required quick assets to meet the minimum quick ratio:\n  Required Quick Assets = Minimum Quick Ratio \u00d7 Current Liabilities\n                       = 2.04 \u00d7 208848 = 426049.92\n\nStep 2: Calculate the existing quick assets:\n  Existing Quick Assets = Current Assets - Inventories - Prepaid Expenses\n                       = 344254 - 36062 - 23295 = 284897.00\n\nStep 3: Calculate the additional quick assets needed:\n  Additional Quick Assets Needed = Required Quick Assets - Existing Quick Assets\n                               = 426049.92 - 284897.00 = 141152.92",
+    "final_result": 141152.92,
+    "steps": [
+      [
+        "Required Quick Assets",
+        426049.92
+      ],
+      [
+        "Existing Quick Assets",
+        284897
+      ],
+      [
+        "Additional Quick Assets Needed",
+        141152.92
+      ]
+    ]
+  }
+}
